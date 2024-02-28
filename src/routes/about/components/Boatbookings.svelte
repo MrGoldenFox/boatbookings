@@ -1,5 +1,9 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <section>
-    <div class="mainWindow"></div>
+    <div class="mainWindow" style:background-image = "url('{base}/img/map.svg')"></div>
     <div class="txt">
         <p>Click on the highlighted areas to see our yachts in the location you desire </p>
     </div>
@@ -9,7 +13,6 @@
     .mainWindow {
         height: 100vh;
         width: 100%;
-        background-image: url("/img/map.svg");
         background-size: cover;
     }
     .txt {

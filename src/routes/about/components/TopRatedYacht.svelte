@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <section>
     <div class="name">
         <h2>Our Top Rated Yachts</h2>
@@ -5,30 +9,30 @@
     </div>
     <div class="allContent">
         <div class="content">
-            <img src={"/img/top1.svg"} alt="img">
+            <img src="{base}/img/top1.svg" alt="img">
             <div class="text">
                 <h3>ANNE MARIE</h3>
-                <img src={"/img/stars.svg"} alt="">
+                <img src="{base}/img/stars.svg" alt="">
                 <p>CLIENT REVIEW</p>
                 <h6>Great choice from Boatbookings. Memorable holiday, everything was amazing.</h6>
                 <button>CHECK OUT THIS YACHT</button>
             </div>
         </div>
         <div class="content">
-            <img src={"/img/top2.svg"} alt="">
+            <img src="{base}/img/top2.svg" alt="">
             <div class="text">
                 <h3>PLAYTIME</h3>
-                <img src={"/img/stars.svg"} alt="">
+                <img src="{base}/img/stars.svg" alt="">
                 <p>CLIENT REVIEW</p>
                 <h6>We just left Playtime and said goodbye to Mario and Karine. We had an amazing time. I am so thankful you found me the boat on such short notice! We got very lucky. You were correct that Mario and ...</h6>
                 <button>CHECK OUT THIS YACHT</button>
             </div>
         </div>
         <div class="content">
-            <img src={"/img/top3.svg"} alt="img">
+            <img src="{base}/img/top3.svg" alt="img">
             <div class="text">
                 <h3>VALERE</h3>
-                <img src={"/img/stars.svg"} alt="">
+                <img src="{base}/img/stars.svg" alt="">
                 <p>CLIENT REVIEW</p>
                 <h6>I do not think I have ever had a better charter (we have done eight).
                     The boat was in great shape, the crew from Ryan down was fantastic -- professional, nice and very service oriented. And that i...</h6>
@@ -36,10 +40,10 @@
             </div>
         </div>
         <div class="content">
-            <img src={'/img/top4.svg'} alt="img">
+            <img src='{base}/img/top4.svg' alt="img">
             <div class="text">
                 <h3>MALA</h3>
-                <img src={"/img/stars.svg"} alt="">
+                <img src="{base}/img/stars.svg" alt="">
                 <p>CLIENT REVIEW</p>
                 <h6>We had a great time on Mala exploring the Dalmatian coast.
                     Everything is great: the catamaran`s condition, Sanja, Zoki’s dedication, and the food we are having. Thanks for everything Boatbookings! ...</h6>
@@ -47,10 +51,10 @@
             </div>
         </div>
         <div class="content">
-            <img src={"/img/top5.svg"} alt="img">
+            <img src="{base}/img/top5.svg" alt="img">
             <div class="text">
                 <h3>Blade 6</h3>
-                <img src={"/img/stars.svg"} alt="">
+                <img src="{base}/img/stars.svg" alt="">
                 <p>CLIENT REVIEW</p>
                 <h6>The kids (5 of them) loved the crew and all the different water toys! Visited beautiful areas - the Captain knew how to keep us wowed!</h6>
                 <button>CHECK OUT THIS YACHT</button>

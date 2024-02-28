@@ -1,10 +1,14 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <section>
     <div class="name">
         <h2>News From Our Blog</h2>
     </div>
     <div class="allContent">
         <div class="content">
-                <img src={"/img/blog1.svg"} alt="img">
+                <img src="{base}/img/blog1.svg" alt="img">
                 <div class="txt">
                     <h3>Electric Yachts are coming – and Boatbookings is offering...</h3>
                     <p>The revolution in electric yachts is happening! </p>
@@ -12,7 +16,7 @@
                 </div>
         </div>
         <div class="content">
-                <img src={"/img/blog2.svg"} alt="img">
+                <img src="{base}/img/blog2.svg" alt="img">
                 <div class="txt">
                     <h3>Yacht Of The Week: MAXIMUS</h3>
                     <p>Launched in 2021, MAXIMUS is Riva’s new 100 Corsaro available for charter on the French Riviera, Sardinia and Corsica. This crewed motor yacht offers the ideal chance to charter a b... </p>
@@ -20,7 +24,7 @@
                 </div>
         </div>
         <div class="content">
-                <img src={"/img/blog3.svg"} alt="img">
+                <img src="{base}/img/blog3.svg" alt="img">
                 <div class="txt">
                     <h3>MEDYS: Charter Brokers’ Choice</h3>
                     <p>The Yachts Breaking Boundaries One of Greece’s most romantic cities, Nafplio – defined by its listed architecture and majestic Venetian castles – once again set the scene for th... </p>

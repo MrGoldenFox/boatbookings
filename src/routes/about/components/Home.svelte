@@ -1,19 +1,23 @@
-<section>
+<script>
+	import { base } from '$app/paths';
+</script>
+
+<section style:background-image = "url('{base}/img/Home.png')">
 	<header>
 		<div class="btn">
 			<button>ADVICE</button>
 			<button>DESTINATIONS</button>
 			<button>NEWS</button>
-			<button id="search"><img src={'img/search.svg'} alt="" /> SEARCH</button>
+			<button id="search"><img src='{base}img/search.svg' alt="" /> SEARCH</button>
 		</div>
 		<div id="logo">
-			<img src={'img/Logo.svg'} alt="" />
+			<img src='{base}img/Logo.svg' alt="" />
 		</div>
 		<div class="btn">
 			<button>ABOUT US</button>
 			<button>CONTACT US</button>
 			<button>ENQUIRE</button>
-			<button><img src={'img/vecktor3.svg'} alt="" /></button>
+			<button><img src='{base}img/vecktor3.svg' alt="" /></button>
 		</div>
 	</header>
 	<main>
@@ -46,7 +50,6 @@
 <style>
 	section {
 		position: relative;
-		background-image: url('img/Home.png');
 		min-height: 100vh;
 		background-size: cover;
 		max-width: 100%;

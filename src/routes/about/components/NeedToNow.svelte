@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <section>
     <div class="text">
         <h2>Everything You Need To Know</h2>
@@ -12,12 +16,12 @@
                 </div>
             </div>
             <div class="img">
-                <img src={"/img/needtoknow1.svg"} alt="img">
+                <img src="{base}/img/needtoknow1.svg" alt="img">
             </div>
         </div>
         <div class="container2">
             <div class="img">
-                <img src={"/img/needtoknow2.svg"} alt="img">
+                <img src="{base}/img/needtoknow2.svg" alt="img">
             </div>
             <div class="txt1">
                 <h3>World's Best Itineraries</h3>
@@ -36,12 +40,12 @@
                 </div>
             </div>
             <div class="img">
-                <img src={"/img/needtoknow3.svg"} alt="img">
+                <img src="{base}/img/needtoknow3.svg" alt="img">
             </div>
         </div>
         <div class="container2">
             <div class="img">
-                <img src={"/img/needtoknow4.svg"} alt="img">
+                <img src="{base}/img/needtoknow4.svg" alt="img">
             </div>
             <div class="txt1">
                 <h3>Subscribe To Our Newsletter</h3>
@@ -61,12 +65,12 @@
                 </div>
             </div>
             <div class="img">
-                <img src={"/img/needtoknow5.svg"} alt="img">
+                <img src="{base}/img/needtoknow5.svg" alt="img">
             </div>
         </div>
         <div class="container2">
             <div class="img">
-                <img src={"/img/needtoknow6.svg"} alt="img">
+                <img src="{base}/img/needtoknow6.svg" alt="img">
             </div>
             <div class="txt1">
                 <h3>Covid Charter Planning Advice</h3>

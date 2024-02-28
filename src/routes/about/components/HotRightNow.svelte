@@ -1,4 +1,8 @@
-<section>
+<script>
+	import { base } from '$app/paths';
+</script>
+
+<section style:background-image = "url('{base}/img/hot_background.svg')">
     <div class="name">
         <h2>What's HOT Right Now!</h2>
     </div>
@@ -25,7 +29,6 @@
         min-height: 50vh;
         width: 100%;
         position: absolute;
-        background-image: url("/img/hot_background.svg");
         background-size: cover;
         padding-top: 10px;
     }

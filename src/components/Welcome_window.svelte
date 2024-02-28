@@ -1,5 +1,10 @@
-<section>
-    <a href="/about"><img src={"/img/Logo.svg"} alt=""></a>
+<script>
+    import { base } from '$app/paths';
+
+</script>
+
+<section style:background-image = "url('{base}/img/background.svg')">
+    <a href="{base}/about"><img src="{base}/img/Logo.svg" alt=""></a>
 </section>
 
 <style>
@@ -9,7 +14,6 @@
         min-width: 100%;
         height: 100vh;
         background-size:cover;
-        background-image: url('img/background.svg');
         display: flex;
         justify-content: center;
         align-items: center;

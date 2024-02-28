@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 </script>
 
 <section>
@@ -7,7 +8,7 @@
     </div>
     <main>
         <div class="destination2Container">
-            <img src={"/img/destination2_1.svg"} alt="">
+            <img src="{base}/img/destination2_1.svg" alt="">
             <h3>Greek Island Charm </h3>
             <p>Unveil a rich history, rustic Greek tavernas, olive groves and white-washed fishing villages by charter yacht.</p>
             <div class="buttons">
@@ -16,7 +17,7 @@
             </div>
         </div>
         <div class="destination2Container">
-            <img src={"/img/destination2_2.svg"} alt="">
+            <img src="{base}/img/destination2_2.svg" alt="">
             <h3>French Riviera </h3>
             <p>Cruise from the glamorous hangouts of Cannes and Monaco to the hushed haven of Hyères for the ultimate charter.</p>
             <div class="buttons">
@@ -25,7 +26,7 @@
             </div>
         </div>
         <div class="destination2Container">
-            <img src={"/img/destination2_3.svg"} alt="">
+            <img src="{base}/img/destination2_3.svg" alt="">
             <h3>Amalfi Coast</h3>
             <p>Hike volcanoes, tour ancient ruins, dine with the jet set and pamper yourself on the Amalfi Coast.</p>
             <div class="buttons">
@@ -34,7 +35,7 @@
             </div>
         </div>
         <div class="destination2Container">
-            <img src={"/img/destination2_4.svg"} alt="">
+            <img src="{base}/img/destination2_4.svg" alt="">
             <h3>The Bahamas </h3>
             <p>Discover the enchanting Exumas. Dive Thunderball Grotto and explore Staniel Cay by tender and toys.</p>
             <div class="buttons">
@@ -43,7 +44,7 @@
             </div>
         </div>
         <div class="destination2Container">
-            <img src={"/img/destination2_5.svg"} alt="">
+            <img src="{base}/img/destination2_5.svg" alt="">
             <h3>British Virgin Islands </h3>
             <p>Discover The Baths of Virgin Gorda and Jost Van Dyke's palm-fringed beaches for an exclusive winter revival.</p>
             <div class="buttons">

@@ -1,17 +1,21 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <section>
     <main>
         <div class="mainContainer">
-            <img src={"/img/boat1.svg"} alt="boats">
+            <img src="{base}/img/boat1.svg" alt="boats">
             <p>Discover our</p>
             <h3>Bareboats</h3>
         </div>
         <div class="mainContainer">
-            <img src={"/img/boat2.svg"} alt="boats">
+            <img src="{base}/img/boat2.svg" alt="boats">
             <p>Discover our</p>
             <h3>Catamarans</h3>
         </div>
         <div class="mainContainer">
-            <img src={"/img/boat3.svg"} alt="boats">
+            <img src="{base}/img/boat3.svg" alt="boats">
             <p>Discover our</p>
             <h3>Crewed Yachts</h3>
         </div>

@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <section>
     <div class="text">
         <h2>Yachting Hot Spots and Events</h2>
@@ -5,7 +9,7 @@
     <div class="mainContainer">
         <div class="container1">
             <div class="img">
-                <img src={"/img/yachting1.svg"} alt="img">
+                <img src="{base}/img/yachting1.svg" alt="img">
             </div>
             <div class="txt1">
                 <h3>The French Riviera</h3>
@@ -26,12 +30,12 @@
                 </div>
             </div>
             <div class="img">
-                <img src={"/img/yachting2.svg"} alt="img">
+                <img src="{base}/img/yachting2.svg" alt="img">
             </div>
         </div>  
         <div class="container1">
             <div class="img">
-                <img src={"/img/yachting3.svg"} alt="img">
+                <img src="{base}/img/yachting3.svg" alt="img">
             </div>
             <div class="txt1">
                 <h3>Greek Glamour</h3>
@@ -52,12 +56,12 @@
                 </div>
             </div>
             <div class="img">
-                <img src={"/img/yachting4.svg"} alt="img">
+                <img src="{base}/img/yachting4.svg" alt="img">
             </div>
         </div>  
         <div class="container1">
             <div class="img">
-                <img src={"/img/yachting5.svg"} alt="img">
+                <img src="{base}/img/yachting5.svg" alt="img">
             </div>
             <div class="txt1">
                 <h3>Discover the Costa Rican Charm</h3>
@@ -78,12 +82,12 @@
                 </div>
             </div>
             <div class="img">
-                <img src={"/img/yachting6.svg"} alt="img">
+                <img src="{base}/img/yachting6.svg" alt="img">
             </div>
         </div>  
         <div class="container1">
             <div class="img">
-                <img src={"/img/yachting7.svg"} alt="img">
+                <img src="{base}/img/yachting7.svg" alt="img">
             </div>
             <div class="txt1">
                 <h3>BVI Bliss</h3>
@@ -104,7 +108,7 @@
                 </div>
             </div>
             <div class="img">
-                <img src={"/img/yachting8.svg"} alt="img">
+                <img src="{base}/img/yachting8.svg" alt="img">
             </div>
         </div>  
     </div>

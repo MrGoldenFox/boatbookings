@@ -1,8 +1,12 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <section>
     <main>
         <div class="destinationContainer">
             <h3>Mediterranean</h3>
-            <img src={"/img/destination1_1.svg"} alt="destination1">
+            <img src="{base}/img/destination1_1.svg" alt="destination1">
             <a href="">French Riviera</a>
             <a href="">Corsica</a>
             <a href="">Greece</a>
@@ -14,7 +18,7 @@
         </div>
         <div class="destinationContainer">
             <h3>Florida</h3>
-            <img src={"/img/destination1_2.svg"} alt="destination1">
+            <img src="{base}/img/destination1_2.svg" alt="destination1">
             <a href="">BVI</a>
             <a href="">US Virgin Islands</a>
             <a href="">Bahamas</a>
@@ -25,7 +29,7 @@
         </div>
         <div class="destinationContainer">
             <h3>Asia Pacific</h3>
-            <img src={"/img/destination1_3.svg"} alt="destination1">
+            <img src="{base}/img/destination1_3.svg" alt="destination1">
             <a href="">Phuket</a>
             <a href="">Thailand</a>
             <a href="">Singapore</a>

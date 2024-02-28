@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <section>
 	<div class="mainContent">
 		<div class="allContent">
@@ -39,12 +43,12 @@
 		</div>
 	</div>
 	<div class="social">
-		<a href=""><img src={"./img/facebook.svg"} alt="img"></a>
-		<a href=""><img src={"./img/instagram.svg"} alt="img"></a>
-		<a href=""><img src={"./img/linkd.svg"} alt="img"></a>
-		<a href=""><img src={"./img/twitter.svg"} alt="img"></a>
-		<a href=""><img src={"./img/youtube.svg"} alt="img"></a>
-		<a href=""><img src={"./img/pinterest.svg"} alt="img"></a>
+		<a href=""><img src="{base}/img/facebook.svg" alt="img"></a>
+		<a href=""><img src="{base}/img/instagram.svg" alt="img"></a>
+		<a href=""><img src="{base}/img/linkd.svg" alt="img"></a>
+		<a href=""><img src="{base}/img/twitter.svg" alt="img"></a>
+		<a href=""><img src="{base}/img/youtube.svg" alt="img"></a>
+		<a href=""><img src="{base}/img/pinterest.svg" alt="img"></a>
 	</div>
 </section>
 

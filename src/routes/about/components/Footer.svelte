@@ -1,9 +1,13 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <section>
     <div class="logo">
-        <img src={'/img/Logo.svg'} alt="Logo">
+        <img src='{base}/img/Logo.svg' alt="Logo">
     </div>
     <div class="feedback">
-        <img src={"/img/stars.svg"} alt="stars">
+        <img src="{base}/img/stars.svg" alt="stars">
         <p>Rating: 4.9 / 5 calculated on 1037 reviews</p>
         <a href="">See all of our client reviews</a>
     </div>

@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <section>
 	<div class="text">
 		<h2>Your Full Service Yacht Charter Broker</h2>
@@ -15,7 +19,7 @@
 			</div>
 		</div>
 		<div class="img">
-			<img src={'/img/fullServiceYacht.svg'} alt="img" />
+			<img src='{base}/img/fullServiceYacht.svg' alt="img" />
 		</div>
 	</div>
 </section>
