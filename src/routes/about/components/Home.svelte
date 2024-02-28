@@ -8,16 +8,16 @@
 			<button>ADVICE</button>
 			<button>DESTINATIONS</button>
 			<button>NEWS</button>
-			<button id="search"><img src='{base}img/search.svg' alt="" /> SEARCH</button>
+			<button id="search"><img src='{base}/img/search.svg' alt="" /> SEARCH</button>
 		</div>
 		<div id="logo">
-			<img src='{base}img/Logo.svg' alt="" />
+			<img src='{base}/img/Logo.svg' alt="" />
 		</div>
 		<div class="btn">
 			<button>ABOUT US</button>
 			<button>CONTACT US</button>
 			<button>ENQUIRE</button>
-			<button><img src='{base}img/vecktor3.svg' alt="" /></button>
+			<button><img src='{base}/img/vecktor3.svg' alt="" /></button>
 		</div>
 	</header>
 	<main>
